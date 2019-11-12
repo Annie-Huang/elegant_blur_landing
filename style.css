@@ -26,9 +26,12 @@ body {
     filter: blur(0px);
     -webkit-filter: blur(0px);
 }
+.showcase:hover .content {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
 
 .content {
-    border: 1px red solid;
     position: absolute;
     z-index: 1; /* Default value is 0 */
     top: 10%;
